@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiko - Let's Go Hiking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <div class="container hero-section">
+        <header>
+            <div class="logo">
+                <h1>Hiko</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#featured-trips">Trips</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="social-icon"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+
+        <main>
+            <div class="trust-badge" data-aos="fade-right" data-aos-delay="300">
+                <div class="avatar-group">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Avatar" class="avatar">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Avatar" class="avatar">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Avatar" class="avatar">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Avatar" class="avatar">
+                </div>
+                <p>Trusted by 150+ <br>explorers and hikers</p>
+            </div>
+
+            <div class="hero-content">
+                <h1 data-aos="fade-up">Let's Go Hiking</h1>
+                <p data-aos="fade-up" data-aos-delay="200">Led by locals, built for those who want more than a pretty view, <br>real connection, fresh air, and stories to take home.</p>
+                <button class="cta-button" data-aos="fade-up" data-aos-delay="400">Start Your Hike <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </main>
+
+        <div class="scroll-indicator">
+            <p>Scroll down</p>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+
+    <section id="featured-trips" class="featured-trips">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Featured Hiking Trips</h2>
+            <p>Discover our most popular and breathtaking adventures</p>
+        </div>
+        
+        <div class="trips-container">
+            <div class="trip-card" data-aos="fade-up">
+                <div class="trip-image">
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Mountain Trail">
+                    <div class="trip-duration">3 days</div>
+                </div>
+                <div class="trip-info">
+                    <div class="trip-stats">
+                        <span><i class="fas fa-mountain"></i> Intermediate</span>
+                        <span><i class="fas fa-route"></i> 32 km</span>
+                    </div>
+                    <h3>Mountain Explorer</h3>
+                    <p>Trek through stunning alpine scenery with panoramic mountain views and crystal-clear lakes.</p>
+                    <div class="trip-footer">
+                        <span class="trip-price">$499</span>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="trip-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="trip-image">
+                    <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Forest Adventure">
+                    <div class="trip-duration">2 days</div>
+                </div>
+                <div class="trip-info">
+                    <div class="trip-stats">
+                        <span><i class="fas fa-mountain"></i> Beginner</span>
+                        <span><i class="fas fa-route"></i> 18 km</span>
+                    </div>
+                    <h3>Forest Wanderer</h3>
+                    <p>Immerse yourself in lush forests with ancient trees, bubbling streams, and abundant wildlife.</p>
+                    <div class="trip-footer">
+                        <span class="trip-price">$349</span>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="trip-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="trip-image">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Alpine Challenge">
+                    <div class="trip-duration">5 days</div>
+                </div>
+                <div class="trip-info">
+                    <div class="trip-stats">
+                        <span><i class="fas fa-mountain"></i> Advanced</span>
+                        <span><i class="fas fa-route"></i> 65 km</span>
+                    </div>
+                    <h3>Alpine Challenge</h3>
+                    <p>Test your endurance with this challenging high-altitude trek through dramatic landscapes.</p>
+                    <div class="trip-footer">
+                        <span class="trip-price">$899</span>
+                        <button class="book-now-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="view-more-container" data-aos="fade-up">
+            <button class="view-more-btn">View All Trips <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Our Services</h2>
+            <p>Everything you need for an unforgettable hiking experience</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card" data-aos="zoom-in">
+                <div class="service-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <h3>Expert Guided Tours</h3>
+                <p>Our professional guides have extensive knowledge of local trails, flora, fauna, and history.</p>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="service-icon">
+                    <i class="fas fa-campground"></i>
+                </div>
+                <h3>Premium Camping</h3>
+                <p>Comfortable and eco-friendly camping equipment with stunning locations for overnight stays.</p>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Gourmet Trail Meals</h3>
+                <p>Delicious, locally-sourced meals prepared fresh during your adventure to keep you energized.</p>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="service-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>Photography Sessions</h3>
+                <p>Capture your journey with professional photography services available on select tours.</p>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-shuttle-van"></i>
+                </div>
+                <h3>Transportation</h3>
+                <p>Convenient pickup and drop-off services from major hotels and transportation hubs.</p>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="service-icon">
+                    <i class="fas fa-first-aid"></i>
+                </div>
+                <h3>Safety First</h3>
+                <p>All guides are certified in wilderness first aid and carry emergency communication devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-banner">
+        <div class="cta-content" data-aos="fade-right">
+            <h2>Ready for Your Next Adventure?</h2>
+            <p>Book a trip today and get 10% off your first hike with us</p>
+            <button class="cta-banner-btn">Explore Trips <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="cta-image" data-aos="fade-left">
+            <img src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Hiking adventure">
+        </div>    </section>    <section id="testimonials" class="testimonials-interactive">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="animated-title">Voices from the Trail</h2>
+            <div class="title-underline"><span></span></div>
+            <p>Hear what fellow adventurers are saying</p>
+        </div>
+
+        <div class="testimonial-grid-container" data-aos="fade-up">
+            <div class="testimonial-card-interactive">
+                <div class="card-content">
+                    <img src="https://images.unsplash.com/photo-1500048993953-d23a436266cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Sarah Johnson" class="card-avatar">
+                    <h3>Sarah Johnson</h3>
+                    <span>Alpine Challenge</span>
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Exceeded expectations! Breathtaking views and our guide knew all the best spots. Felt so connected to nature."</p>
+                </div>
+            </div>
+
+            <div class="testimonial-card-interactive">
+                <div class="card-content">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Michael Rodriguez" class="card-avatar">
+                    <h3>Michael Rodriguez</h3>
+                    <span>Forest Wanderer</span>
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Felt completely safe and supported as a first-timer. The team ensured I had the right gear and knowledge. Life-changing!"</p>
+                </div>
+            </div>
+
+            <div class="testimonial-card-interactive">
+                <div class="card-content">
+                    <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Emma Chen" class="card-avatar">
+                    <h3>Emma Chen</h3>
+                    <span>Mountain Explorer</span>
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Hiko sets the gold standard. Perfect balance of adventure, comfort, and education. Unforgettable memories!"</p>
+                </div>
+            </div>
+        </div>
+    </section>    <section class="instagram-feed">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Share Your Adventures</h2>
+            <p>Follow us on Instagram <a href="#">@hikotrails</a> and tag your photos with #HikoAdventure</p>
+        </div>
+        
+        <div class="instagram-grid">
+            <a href="#" class="instagram-item" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Instagram post">
+                <div class="instagram-overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+            <a href="#" class="instagram-item" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Instagram post">
+                <div class="instagram-overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+            <a href="#" class="instagram-item" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Instagram post">
+                <div class="instagram-overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+            <a href="#" class="instagram-item" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Instagram post">
+                <div class="instagram-overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>            <a href="#" class="instagram-item" data-aos="fade-up" data-aos-delay="400">
+                <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Instagram post">
+                <div class="instagram-overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+            <a href="#" class="instagram-item" data-aos="fade-up" data-aos-delay="500">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Instagram post">
+                <div class="instagram-overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+    </section>    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get in Touch</h2>
+                <p>Have questions about our trips or services? We're here to help you plan your perfect hiking adventure.</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-up">
+                    <div class="contact-card">
+                        <div class="icon-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>123 Adventure Way, Mountain View, CA 94043</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="icon-box">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone Number</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="icon-box">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Address</h3>
+                        <p>info@hikotrails.com</p>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-aos="fade-up">
+                    <h3>Send Us a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" required>
+                                <option value="" disabled selected>Select a Subject</option>
+                                <option value="booking">Trip Booking</option>
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="partnership">Partnership</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <h2>Hiko</h2>
+                </div>
+                <p>Connecting adventure seekers with the world's most breathtaking trails since 2018.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#featured-trips">Popular Trips</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Travel Blog</a></li>
+                    <li><a href="#">Hiking Tips</a></li>
+                    <li><a href="#">Equipment Guide</a></li>
+                    <li><a href="#">Trail Maps</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates on new trails, special offers, and hiking tips.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hiko Trails. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
